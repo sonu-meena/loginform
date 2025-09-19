@@ -1,0 +1,139 @@
+/* *{
+color: brown;
+
+}
+.perent{
+
+    color: blue;
+    background-color: blueviolet;
+} */
+ * {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e6f3ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.review-card {
+  background-color: white;
+  width: 400px;
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 12px;
+}
+
+.user-info h4 {
+  margin-bottom: 2px;
+  font-size: 16px;
+}
+
+.user-info span {
+  color: #777;
+  font-size: 14px;
+}
+
+.menu {
+  margin-left: auto;
+  font-size: 20px;
+  color: #999;
+  cursor: pointer;
+}
+
+.prompt {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.stars {
+  display: flex;
+  font-size: 20px;
+  color: #ccc;
+  margin-bottom: 16px;
+}
+
+.stars .star.selected {
+  color: #2d9cdb;
+}
+
+form input[type="text"],
+form input[type="email"],
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+}
+
+.input-row input,
+.input-row select {
+  flex: 1;
+}
+
+textarea {
+  resize: vertical;
+  height: 80px;
+}
+
+.upload {
+  margin-bottom: 20px;
+}
+
+.upload a {
+  color: #2d9cdb;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button.cancel {
+  background: white;
+  color: #2d9cdb;
+  border: 1px solid #2d9cdb;
+}
+
+button.send {
+  background-color: #2d9cdb;
+  color: white;
+}

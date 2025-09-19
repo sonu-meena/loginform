@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.parent{
+       height: 100vh;
+     display: flex; 
+    
+     background-color: aqua;
+    
+}
+.first{
+    color: blueviolet;
+    /* background-color: black; */
+    width: 30%;
+    /* width: 50vh; */
+    /* align-items: center; */
+/* justify-content: center; */
+}
+.second{
+    width: 40%;
+    /* height: 40%; */
+color: rgb(222, 125, 6);
+align-items: center;
+justify-content: center;
+background-color: blue;
+}

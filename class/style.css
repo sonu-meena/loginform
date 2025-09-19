@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* hw */
+    box-sizing: border-box;
+}
+
+/* #test{
+    color: rgb(176, 0, 0);
+} */
+
+/* div{
+    background-color: aqua;
+} */
+
+.parent {
+    background-color: rgb(223, 30, 30);
+    height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.first {
+    width: 50%;
+    background-color: aqua;
+}
+
+.first img {
+    height: 100%;
+    width: 100%;
+}
+
+.second {
+    width: 50%;
+    background-color: rgb(145, 144, 142);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sub-main {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: cadetblue; */
+}
+
+.sub-main h1 {
+    margin-bottom: 20px;
+    /* border:  2px solid black; */
+    border-bottom: 3px solid black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    /* background-color: cadetblue; */
+    height: 70vh;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.radio {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: cadetblue; */
+}
+
+.btn {
+    /* 4 side */
+    padding: 8px;
+
+    /* 2 side */
+    /* padding: 5px 5px ; */
+
+    /* 1-1 side */
+    /* padding: 5px T  10px R  15px B  20px L  */
+
+    /* padding-left: 5px;
+    padding-right: ;
+    padding-bottom: ;
+    padding-top: ; */
+
+
+    color: white;
+    background-color: #000000;
+    width: 50%;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.btn-section {
+    display: flex;
+    justify-content: center;
+
+}
+
+input {
+    border: none;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+
+@media (max-width:768px) {
+    .radio {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:698px) {
+    .sub-main {
+        width: 95%;
+    }
+}
+
+@media (max-width:698px) {
+
+    .parent {
+        flex-direction: column;
+    }
+
+    .first {
+        display: none;
+    }
+
+    .second {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .second h1 {
+        font-size: 22px;
+    }
+}
